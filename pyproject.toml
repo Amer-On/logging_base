@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "logging-exp"
+version = "0.1.0"
+description = ""
+authors = ["aoleynik <aoleynik@aflt-systems.ru>"]
+readme = "README.md"
+packages = [{include = "logging_exp"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
